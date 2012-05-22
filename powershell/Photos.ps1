@@ -99,3 +99,6 @@ CopyFiles($files)
 Write-Host "Copying MOV's"
 $files = Get-ChildItem -recurse -filter *.mov
 CopyFiles($files)
+Write-Host "Copying MOD's"
+$files = Get-ChildItem -recurse -filter *.mod
+CopyFiles($files)
